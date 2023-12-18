@@ -154,11 +154,11 @@ export default function App() {
   }
 
   return (
-    <div id="main">
+    <div id="mains">
       <Navbar/>
       <div id="game">
         <Toaster/>
-        <div className="columns">
+        <div className="column">
           <div className="board-col">
             <BoardContainer isGameOver={isGameOver} setIsGameOver={setIsGameOver} board={boards[0]} isActiveBoard={isActiveBoardId === 1} setGrid={setGrid} dividerRef={dividerRef} input={input} inputRow={inputRow}/>
           </div>
